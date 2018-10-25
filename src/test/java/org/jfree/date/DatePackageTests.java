@@ -37,7 +37,7 @@
  * Changes
  * -------
  * 16-Nov-2001 : Version 1 (DG);
- * 25-Jun-2002 : Added SerialDateUtilitiesTest (DG);
+ * 25-Jun-2002 : Added DayDateUtilitiesTest (DG);
  * 24-Oct-2002 : Fixed errors reported by Checkstyle (DG);
  *
  */
@@ -60,8 +60,8 @@ public class DatePackageTests extends TestCase {
      */
     public static Test suite() {
         final TestSuite suite = new TestSuite("org.jfree.date");
-        suite.addTestSuite(SerialDateTest.class);
-        suite.addTestSuite(SerialDateUtilitiesTest.class);
+        suite.addTestSuite(DayDateTest.class);
+        suite.addTestSuite(DayDateUtilitiesTest.class);
         suite.addTestSuite(SpreadsheetDateTest.class);
         return suite;
     }
